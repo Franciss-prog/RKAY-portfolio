@@ -22,7 +22,7 @@ input {
 textarea {
     background-color: #1a1a1a;
     resize: none;
-    height: 400px;
+    height: 200px;
     width: 50vh;
     padding: 5px;
     border: 1px solid  #ffc5d3;
