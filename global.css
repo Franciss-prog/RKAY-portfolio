@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: "Noto Serif", sans-serif;
 }
 
 :root {
@@ -17,6 +20,7 @@ body {
   height: 100vh;
 }
 
+/* navbar styling */
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,11 +29,19 @@ nav {
   height: 20vh;
   align-items: center;
 }
+
+/* logo */
+nav .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 30px;
+}
 nav ul {
   display: flex;
   gap: 20px;
 }
-
+/* colors select */
 li a,
 nav a {
   color: #ffc5d3;
@@ -55,4 +67,16 @@ nav a {
   display: none;
 }
 
+.target-href {
+  border-bottom: #ffc5d3;
+}
 
+/* styling for aside content */
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+aside span {
+  font-size: 60px;
+}
