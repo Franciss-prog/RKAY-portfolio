@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>R-chived</title>
     <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="contact.css">
-    <script src="https://kit.fontawesome.com/1dd414f313.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/1dd414f313.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- root navbar layout -->
@@ -20,26 +23,22 @@
     </nav>
 
     <!-- root content -->
-    <main class="home-content">
-
-      <section class="">
-        <ul class="socials">
-          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-        </ul>
-        <div class="Ok">
-          <span>Contact Me</span>
-          <div class="input-container" >
-            <input type="name" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea name="message" id="message" placeholder="Message"></textarea>
-
-          </div>
-          <button class="submit">Submit</button>
+    <main class="contact-content">
+      <section class="contact-container">
+        <form onsubmit="preventFromLoading()">
+          <h1>Let's Collab</h1>
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+          <textarea name="" id="" placeholder="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <!-- socmed links -->
+        <div>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         </div>
       </section>
-
     </main>
 
     <!-- for contact page -->
@@ -47,4 +46,5 @@
         <p>Content credits to the respective owner. All rights reserved.</p>
       </footer> -->
   </body>
+  <script src="script.js"></script>
 </html>
