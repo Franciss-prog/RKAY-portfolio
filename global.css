@@ -52,13 +52,12 @@ nav a {
 
 /* styling for root content */
 
-.home-content {
+.home-content  div{
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 60px;
-  width: fit-content;
   padding: 0px 120px;
 }
 
