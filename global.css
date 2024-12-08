@@ -13,7 +13,7 @@
 
 :root {
   --dark: #1a1a1a;
-  --light: #FEFEFE;
+  --light: #fefefe;
   --text: #ffc5d3;
 }
 
@@ -52,7 +52,7 @@ nav a {
 
 /* styling for root content */
 
-.home-content  div{
+.home-content div {
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -84,8 +84,8 @@ aside span {
   gap: 10px;
   font-size: 60px;
 }
-.sub-header{
-    font-size: 30px;
+.sub-header {
+  font-size: 30px;
 }
 
 /* about content */
@@ -100,7 +100,7 @@ aside span {
   font-size: 25px;
 }
 .about-content section {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   gap: 20px;
 }
@@ -115,7 +115,7 @@ aside span {
   padding: 0px 120px;
   font-size: 25px;
 }
-.contact-container form{
+.contact-container form {
   display: flex;
   flex-direction: column;
   border: #ffc5d3 solid 2px;
@@ -124,7 +124,8 @@ aside span {
   gap: 20px;
   border-radius: 30px;
 }
-form input, form textarea{
+form input,
+form textarea {
   background: transparent;
   outline: none;
   color: white;
@@ -155,4 +156,3 @@ form button {
   flex-direction: column;
   color: #ffc5d3;
 }
-
